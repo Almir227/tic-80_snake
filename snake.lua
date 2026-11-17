@@ -21,12 +21,12 @@ function TIC()
 
 	cls(13)
 	spr(1+t%60//30*2,x,y,14,3,0,0,2,2)
-	print("Snake",84,84)
+	print("Snake test",84,84)
 	t=t+1
 end
 
 -- <TILES>
--- 001:8800008880000008006006000600006000012000000020008000000888000088
+-- 001:eccccccccc888888caaaaaaaca888888cacccccccacc0ccccacc0ccccacc0ccc
 -- 002:ccccceee8888cceeaaaa0cee888a0ceeccca0ccc0cca0c0c0cca0c0c0cca0c0c
 -- 003:eccccccccc888888caaaaaaaca888888cacccccccacccccccacc0ccccacc0ccc
 -- 004:ccccceee8888cceeaaaa0cee888a0ceeccca0cccccca0c0c0cca0c0c0cca0c0c
